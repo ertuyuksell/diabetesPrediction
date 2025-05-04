@@ -1,1 +1,36 @@
-# diabetesPrediction
+# 🩺 Diabetes Prediction Project
+
+Bu proje, bireylerin sağlık verilerine dayanarak diyabet hastalığına sahip olup olmadığını tahmin etmeyi amaçlamaktadır. Makine öğrenmesi teknikleriyle veri ön işleme, dengesiz sınıf problemi çözümü, hiperparametre ayarı ve model değerlendirme adımlarını kapsamaktadır.
+
+---
+
+## 📂 Proje Yapısı
+```
+Diabetes-Prediction-Repo/
+├── data/               # Veri setleri
+├── notebooks/          # Geliştirme not defterleri
+├── src/                # Python modülleri (isteğe bağlı)
+├── requirements.txt    # Gerekli kütüphaneler
+├── README.md           # Proje açıklaması
+└── main.py             # Ana model eğitimi (veya .ipynb dosyası)
+```
+
+---
+
+## 🧠 Kullanılan Yöntemler
+- 🔢 **Özellik Ölçekleme:** `StandardScaler`
+- 🔤 **Kategorik Veri Kodlama:** `OneHotEncoder`
+- ⚖️ **Dengesiz Veri:** `SMOTE` ve `RandomUnderSampler`
+- 🔁 **Pipeline Yapısı:** `imblearn.Pipeline`
+- 🔍 **Hiperparametre Ayarı:** `GridSearchCV`
+- 📈 **Model Değerlendirme:** Accuracy, F1, ROC-AUC, Confusion Matrix
+- 📊 **Görselleştirme:** Heatmap, ROC Curve, Learning Curve
+
+---
+
+## 📊 Performans Özeti
+- **Accuracy:** %94.84
+- **ROC-AUC:** 0.9735
+- **Recall (diabetes=1):** %80
+
+Model, diyabetli bireyleri yüksek başarıyla tahmin edebilmekte ve genelleme yeteneği güçlüdür.
