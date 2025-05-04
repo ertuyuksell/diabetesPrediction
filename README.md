@@ -4,19 +4,6 @@ Bu proje, bireylerin sağlık verilerine dayanarak diyabet hastalığına sahip 
 
 ---
 
-## 📂 Proje Yapısı
-```
-Diabetes-Prediction-Repo/
-├── data/               # Veri setleri
-├── notebooks/          # Geliştirme not defterleri
-├── src/                # Python modülleri (isteğe bağlı)
-├── requirements.txt    # Gerekli kütüphaneler
-├── README.md           # Proje açıklaması
-└── main.py             # Ana model eğitimi (veya .ipynb dosyası)
-```
-
----
-
 ## 🧠 Kullanılan Yöntemler
 - 🔢 **Özellik Ölçekleme:** `StandardScaler`
 - 🔤 **Kategorik Veri Kodlama:** `OneHotEncoder`
